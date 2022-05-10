@@ -21,7 +21,7 @@ pipeline {
                 }
                 stage('Test On Master') {
                     agent {
-                        label "master of the universe"
+                        label "master"
                     }
                     steps {
     				    echo "Task1 on Master"
